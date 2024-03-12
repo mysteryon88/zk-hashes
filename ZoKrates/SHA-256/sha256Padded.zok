@@ -1,0 +1,7 @@
+import "hashes/sha256/sha256Padded";
+
+// Number of constraints: 25774
+def main(u8[4] input) -> u32[8]  {
+    u32[8] hash = sha256Padded(input);
+    return hash;
+}

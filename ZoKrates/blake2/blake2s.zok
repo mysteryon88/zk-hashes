@@ -1,0 +1,9 @@
+import "hashes/blake2/blake2s.zok";
+
+// Number of constraints:  46912 - u32[2][16] input
+// Number of constraints: 188464 - u32[8][16] input
+// Number of constraints: 377200 - u32[16][16] input
+def main(u32[8][16] input) -> u32[8]  {
+    u32[8] hash = blake2s(input);
+    return hash;
+}

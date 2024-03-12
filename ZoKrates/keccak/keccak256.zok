@@ -1,0 +1,10 @@
+import "hashes/keccak/256bit.zok" as keccak;
+
+// Number of constraints: 142895 - u8[2] input
+// Number of constraints: 144254 - u8[4] input
+// Number of constraints: 145569 - u8[8] input
+// Number of constraints: 146376 - u8[10] input
+def main(u8[8] input) -> u8[32] {
+    u8[32] hash = keccak(input);
+    return hash;
+}

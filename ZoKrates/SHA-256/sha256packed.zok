@@ -1,0 +1,7 @@
+import "hashes/sha256/512bitPacked" as sha256packed;
+
+// Number of constraints: 48886
+def main(field a, field b, field c, field d) -> field[2] {
+    field[2] h = sha256packed([a, b, c, d]);
+    return h;
+}

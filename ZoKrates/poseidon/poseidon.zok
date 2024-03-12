@@ -1,0 +1,10 @@
+import "hashes/poseidon/poseidon.zok";
+
+// Number of constraints: 241 - [2]
+// Number of constraints: 298 - [4]
+// Number of constraints: 322 - [5]
+// Number of constraints: 355 - [6] - max
+def main(field[6] input) -> field  {
+    field hash = poseidon(input);
+    return hash;
+}

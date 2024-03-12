@@ -1,0 +1,7 @@
+import "hashes/pedersen/512bit.zok" as pedersen;
+
+// Number of constraints: 4958
+def main(u32[16] input) -> u32[8]  {
+    u32[8] hash = pedersen(input);
+    return hash;
+}
