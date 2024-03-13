@@ -7,7 +7,7 @@ Due to differences in implementations, different numbers of arguments are passed
 | Hash function | Circom  | ZoKrates        | Noir   |
 | ------------- | ------- | --------------- | ------ |
 | Keccak        | 151 104 | 146 376         | 54 830 |
-| MiMC          | -       | 365             | 5 983  |
+| MiMC7         | -       | 365             | 370    |
 | MiMCSponge    | 660     | 1 979           | -      |
 | Pedersen      | 438     | 4 958           | 28 742 |
 | Pedersen old  | 738     | -               | -      |
