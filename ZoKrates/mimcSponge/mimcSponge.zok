@@ -1,8 +1,9 @@
 import "hashes/mimcSponge/mimcSponge.zok" as mimcSponge;
 
+// Number of constraints: 658 // 1
 // Number of constraints: 1979 // 2
 // Number of constraints: 4621 // 4
-def main(field[4] a, field k) -> field[4] {
-    field[4] h = mimcSponge(a, k);
+def main(field[1] a, field k) -> field[1] {
+    field[1] h = mimcSponge(a, k);
     return h;
 }

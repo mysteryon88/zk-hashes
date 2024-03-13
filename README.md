@@ -8,7 +8,7 @@ Due to differences in implementations, different numbers of arguments are passed
 | ------------- | ------- | --------------- | ------ |
 | Keccak        | 151 104 | 146 376         | 54 830 |
 | MiMC7         | -       | 365             | 370    |
-| MiMCSponge    | 660     | 1 979           | -      |
+| MiMCSponge    | 660     | 568             | -      |
 | Pedersen      | 438     | 4 958           | 28 742 |
 | Pedersen old  | 738     | -               | -      |
 | Poseidon      | 213     | 241             | 578    |
