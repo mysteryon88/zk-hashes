@@ -13,3 +13,10 @@ Two libraries were taken:
 - [ZK Hashes](https://zk-hashes.vercel.app/)
   - Poseidon
   - MiMCSponge
+
+## Tests and Sources
+
+- `circom.ts` - wrapper over the circomlibjs library
+- `noir.ts` - feature testing of noir-js
+- `noirMiMC.test.ts` - An example of using noir-js to compile a schema and compute a specific hash from the schema
+- `/src/mimc` - hash calculation scheme
