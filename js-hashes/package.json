@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "testNoir": "jest -t 'GetNoirMiMC'",
+    "testNoir": "jest -t GetNoirMiMC",
     "noir": "ts-node src/noir.ts"
   },
   "keywords": [],

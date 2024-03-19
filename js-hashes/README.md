@@ -20,3 +20,8 @@ Two libraries were taken:
 - `noir.ts` - feature testing of noir-js
 - `noirMiMC.test.ts` - An example of using noir-js to compile a schema and compute a specific hash from the schema
 - `/src/mimc` - hash calculation scheme
+
+```sh
+npm test
+npm run testNoir
+```
