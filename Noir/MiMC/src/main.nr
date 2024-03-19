@@ -8,5 +8,4 @@ use dep::std;
 fn main(input: [Field; 1], _hash: Field) {
     let hash = std::hash::mimc::mimc_bn254(input);
     assert(hash == _hash);
-    
 }
