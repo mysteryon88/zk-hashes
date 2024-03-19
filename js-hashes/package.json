@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "circom": "ts-node src/circom.ts"
+    "noir": "ts-node src/noir.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@noir-lang/noir_js": "^0.25.0",
     "@types/circomlibjs": "^0.1.6",
     "@types/jest": "^29.5.12",
     "circomlibjs": "^0.1.7",
