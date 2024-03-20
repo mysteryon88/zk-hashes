@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "testNoir": "jest -t GetNoirMiMC",
+    "testNoitNoBack": "jest -t GetNoirMiMCwithoutBackend",
     "noir": "ts-node src/noir.ts"
   },
   "keywords": [],

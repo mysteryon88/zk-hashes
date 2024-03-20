@@ -55,11 +55,13 @@ describe("GetNoirMiMC", () => {
     const { returnValue } = await noir.execute(mainInput);
     console.log(returnValue);
   });
+});
 
+describe("GetNoirMiMCwithoutBackend", () => {
   test("test no backend", async () => {
     const basePath = resolve(join("./src/mimc/target/mimc.json"));
-    circuit = await getCircuitFromFile(basePath);
-    noir = new Noir(circuit);
+    const circuit = await getCircuitFromFile(basePath);
+    const noir = new Noir(circuit);
 
     const mainInput = { input: [1] };
     const { returnValue } = await noir.execute(mainInput);
